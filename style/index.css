@@ -217,39 +217,58 @@ header .lambda{
 @media(max-width:500px){ 
     .lambda{
         display:flex;
-    flex-direction: column; 
-    align-content: center;}
+        flex-direction: column; 
+        justify-content:center;
+    }
+
+    header a{
+        margin-left: 200px;
+    }
+
+    #lambda{
+        margin-left: 150px;
+    }
     
+    .text-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+        justify-content: center;
+    }
+
     footer nav{
         flex-direction: column;
     }
 
   
-#jumbo{
-    width:500px
-}
+    #jumbo{
+        width:500px;
+    }
  
     .middle-content .boxes {
-      flex-direction: column;
+        flex-direction: column;
    }
 
     .middle-content{
-       border-bottom: 0px ; align-content: center;
+        margin-left:150px;
+        border-bottom: 0px ; 
+        align-content: center;
     }
 
    footer{
-       width:65%;
+        margin-right: 200px;
+        width: 66%
     }
 
   .top-content{
-      flex-direction: column;
-      width:500px;
+        flex-direction: column;
+        width:500px;
     }
 
   .bottom-content{
-      flex-direction: column;
-      flex-wrap: wrap;
-      width: 500px;
+        margin-right: 300px;
+        flex-direction: column;
+        flex-wrap: wrap; 
     }
 }
 
